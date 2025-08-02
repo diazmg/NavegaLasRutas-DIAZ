@@ -1,6 +1,7 @@
 Primera Entrega del curso de React: Crea tu landing
+
 Descripción del Proyecto
-Este repositorio contiene la primera entrega del Proyecto Final de Coderhouse. El objetivo es establecer la base de un futuro e-commerce, creando los componentes principales y aprendiendo a estructurar una aplicación de React.
+Este repositorio contiene la primera entrega del curso de React de Coderhouse. El objetivo es establecer la base de un futuro e-commerce, creando los componentes principales y aprendiendo a estructurar una aplicación de React.
 
 Objetivos Cumplidos
 Estructura de Componentes: Creación de los componentes NavBar, CartWidget e ItemListContainer.
@@ -29,10 +30,10 @@ Instalación y Ejecución
 Para clonar y ejecutar este proyecto en tu entorno local, sigue los siguientes pasos:
 
 Clona el repositorio:
-git clone [URL_DE_TU_REPOSITORIO]
+git clone https://github.com/diazmg/CreaTuLanding1-DIAZ.git
 
 Navega hasta la carpeta del proyecto:
-cd [nombre-de-tu-proyecto]
+cd NombreDeTuProyecto
 
 Instala las dependencias necesarias:
 npm install
@@ -43,4 +44,4 @@ npm start
 La aplicación se abrirá automáticamente en tu navegador en http://localhost:3000.
 
 Autor
-[Tu Nombre y Apellido]
+Marcos Diaz
