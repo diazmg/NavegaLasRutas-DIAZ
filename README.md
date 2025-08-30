@@ -1,7 +1,7 @@
-Primera Entrega del curso de React: Crea tu landing
+Segunda Entrega del curso de React: Crea tu landing
 
 Descripción del Proyecto
-Este repositorio contiene la primera entrega del curso de React de Coderhouse. El objetivo es establecer la base de un futuro e-commerce, creando los componentes principales y aprendiendo a estructurar una aplicación de React.
+Este repositorio contiene la segunda entrega del curso de React de Coderhouse. El objetivo es establecer la base de un futuro e-commerce, creando los componentes principales y aprendiendo a estructurar una aplicación de React.
 
 Objetivos Cumplidos
 Estructura de Componentes: Creación de los componentes NavBar, CartWidget e ItemListContainer.
