@@ -1,47 +1,57 @@
 Segunda Entrega del curso de React: Crea tu landing
 
-Descripción del Proyecto
-Este repositorio contiene la segunda entrega del curso de React de Coderhouse. El objetivo es establecer la base de un futuro e-commerce, creando los componentes principales y aprendiendo a estructurar una aplicación de React.
+# Tienda de Dispositivos Móviles
 
-Objetivos Cumplidos
-Estructura de Componentes: Creación de los componentes NavBar, CartWidget e ItemListContainer.
+Este proyecto es una aplicación web de comercio electrónico desarrollada con React para simular un catálogo de dispositivos móviles. La aplicación permite a los usuarios explorar una lista de productos, filtrar por marca y ver los detalles específicos de cada equipo.
 
-Jerarquía de la Aplicación: NavBar e ItemListContainer son renderizados en App, mientras que CartWidget es anidado dentro de NavBar.
+---
 
-Paso de Props: Se utiliza una prop (bienvenida) para enviar un mensaje de bienvenida desde el componente padre (App) al componente hijo (ItemListContainer).
+## Características Principales
 
-Organización de Archivos: Los componentes se encuentran en sus respectivos archivos dentro de la carpeta src/components.
+* **Catálogo de Productos:** Muestra una lista completa de dispositivos móviles.
+* **Filtrado por Marca:** La navegación permite a los usuarios filtrar el catálogo para ver solo los productos de una marca específica (Samsung, Apple, Motorola, etc.).
+* **Página de Detalles:** Al hacer clic en un producto, se navega a una página dedicada que muestra información detallada sobre el dispositivo.
+* **Manejo de Rutas:** Utiliza React Router DOM para una navegación fluida entre el catálogo, los filtros y la vista de detalles.
+* **Diseño Responsivo:** Implementado con Bootstrap para asegurar que la interfaz se adapte a diferentes tamaños de pantalla.
 
-Componentes Principales
-App.js ----> El componente principal que renderiza la aplicación.
+---
 
-NavBar.js ----> La barra de navegación que incluye el logo, los enlaces de navegación y el CartWidget.
+## Tecnologías Utilizadas
 
-CartWidget.js ----> El ícono del carrito de compras.
+* **React:** Biblioteca principal para la construcción de la interfaz de usuario.
+* **React Router DOM:** Para la gestión de rutas y navegación entre componentes.
+* **Vite:** Herramienta de desarrollo y empaquetado ultra-rápida.
+* **Bootstrap:** Framework de CSS para un diseño ágil y responsivo.
+* **JavaScript (ES6):** Para la lógica del frontend.
+* **CSS:** Para estilos personalizados.
 
-ItemListContainer.js ----> Un contenedor que muestra un mensaje de bienvenida, demostrando el uso de props.
+---
 
-Tecnologías Utilizadas
-React: Librería principal para la creación de la interfaz de usuario.
+## Instalación y Uso
 
-Bootstrap: Utilizado para dar estilos a los componentes de manera rápida y responsiva
+Para ejecutar este proyecto en tu entorno local, sigue estos sencillos pasos desde la terminal:
 
-Instalación y Ejecución
-Para clonar y ejecutar este proyecto en tu entorno local, sigue los siguientes pasos:
+1.  **Clona el repositorio:**
+    ```bash
+    git clone [https://github.com/tu-usuario/nombre-del-repositorio.git](https://github.com/tu-usuario/nombre-del-repositorio.git)
+    ```
 
-Clona el repositorio:
-git clone https://github.com/diazmg/CreaTuLanding1-DIAZ.git
+2.  **Navega al directorio del proyecto:**
+    ```bash
+    cd nombre-del-repositorio
+    ```
 
-Navega hasta la carpeta del proyecto:
-cd NombreDeTuProyecto
+3.  **Instala las dependencias:**
+    ```bash
+    npm install
+    ```
 
-Instala las dependencias necesarias:
-npm install
+4.  **Inicia el servidor de desarrollo:**
+    ```bash
+    npm run dev
+    ```
 
-Inicia la aplicación en modo desarrollo:
-npm start
-
-La aplicación se abrirá automáticamente en tu navegador en http://localhost:3000.
+El proyecto se abrirá automáticamente en tu navegador por defecto en `http://localhost:5173`.
 
 Autor
 Marcos Diaz
